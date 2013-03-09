@@ -1,0 +1,28 @@
+#
+# This is the default standard .cshrc provided to csh users.
+# They are expected to edit it to meet their own needs.
+#
+# The commands in this file are executed each time a new csh shell
+# is started.
+#
+# $Revision: 1.6 $
+#
+
+set history = 100
+set filec
+umask 022
+
+# list directories in columns
+alias ls 'ls -C'
+
+alias	e	emacs
+alias   h	history
+alias	m	more
+alias   ll	"ls -l"
+alias   la      "ls -asFC"
+alias	mail	Mail
+alias   bye     logout
+alias   up	"cd .. ; pwd ; la"
+alias   down    "cd \!^; la"
+alias   dusm    "du -s * | sort -nr | more"
+
