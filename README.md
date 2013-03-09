@@ -5,12 +5,12 @@ Repo for my configuration files. Running install.sh will automaically backup exi
 
 
 vim
-=======
+--------
 
 .vimrc, plugins and vim/setings are included
 
 
 dircolors
-=======
+---------
 
 Colorscheme is based around [solarized](http://ethanschoonover.com/solarized/ "solarized")
