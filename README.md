@@ -8,3 +8,9 @@ vim
 =======
 
 .vimrc, plugins and vim/setings are included
+
+
+dircolors
+=======
+
+Colorscheme is based around [solarized](http://ethanschoonover.com/solarized/ "solarized")
