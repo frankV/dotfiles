@@ -9,7 +9,7 @@ Bundle 'gmarik/vundle'
 Bundle 'matchit.zip'
 Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
-Bundle 'vim-powerline'
+"Bundle 'vim-powerline'
 Bundle 'Command-T'
 
 """""""""""""""""""" GLOBAL
