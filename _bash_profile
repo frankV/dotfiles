@@ -1,0 +1,69 @@
+#################################################
+###                          Ruby Version Manager  
+##
+#
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function* 
+
+
+
+#################################################
+###                       Mods to Terminal Output 
+##
+# set manual dir_colors
+if [ "$TERM" != "dumb" ]; then
+
+      eval `dircolors ~/.dir_colors`
+fi
+###
+##
+# directory function aliases
+alias ls='ls -GHf'
+alias dir='ls -Gal'
+###
+##
+# change directory
+alias ...='cd ../../../'
+alias cd.4='cd ../../../../'
+alias cd.5='cd ../../../../../'
+alias cd..='cd ..'
+
+
+
+#################################################
+###                       Apple Hardware Specific
+##
+# network connection aliases
+alias airdown='sudo /sbin/ifconfig en1 down'
+alias airup='sudo /sbin/ifconfig en1 up'
+alias ethdown='sudo /sbin/ifconfig en0 down'
+alias ethup='sudo /sbin/ifconfig en0 up'
+###
+##
+# show/hide all hidden files
+alias showall='defaults write com.apple.Finder AppleShowAllFiles TRUE'
+alias hideall='defaults write com.apple.Finder AppleShowAllFiles FALSE'
+###
+##
+# MacPorts Installer addition on 2011-10-12_at_09:52:55: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+
+#################################################
+###                             Python Virtualenv
+##
+# virtualenv aliases
+# http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.html
+alias v='workon'
+alias v.mk='mkvirtualenv --no-site-packages'
+alias v.mk_withsitepackages='mkvirtualenv'
+
+
+
+#################################################
+###                               Heroku Toolbelt
+##
+# Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
