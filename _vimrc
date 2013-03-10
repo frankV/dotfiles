@@ -1,8 +1,11 @@
-"""""""""""""""""" PLUGINS
+"""""""""""""""""" VUNDLE
+filetype off
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-
 Bundle 'gmarik/vundle'
+
+"""""""""""""""""" VUNDLE Manages these Bundles
 Bundle 'matchit.zip'
 Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
@@ -24,7 +27,7 @@ colorscheme solarized
 set gfn=terminus
 set go=
 
-filetype on
+"filetype on
 filetype plugin indent on
 set encoding=utf-8
 set hidden
