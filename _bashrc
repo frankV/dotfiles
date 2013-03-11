@@ -1,1 +1,19 @@
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+
+# Terminal colors (after installing GNU coreutils)
+export PATH=/opt/local/libexec/gnubin:$PATH
+
+
+#NM="\[\033[0;38m\]" 		# means no background and white 
+#linesHI="\[\033[0;37m\]" 	# change this for letter 
+#colorsHII="\[\033[0;31m\]" 	# change this for letter 
+#colorsSI="\[\033[0;33m\]" 	# this is for the current 
+#directoryIN="\[\033[0m\]"
+
+#export PS1="$NM[ $HI\u $HII\h $SI\w$NM ] $IN"
+
+if [ "$TERM" != "dumb" ]; then    
+	export LS_OPTIONS='--color=auto'    
+	eval `gdircolors ~/.dir_colors`
+fi

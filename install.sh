@@ -26,3 +26,12 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/_$file ~/.$file
 done
+
+############ TO DO
+
+###
+##
+# add system detection
+#   Mac:
+#       1. install macports if not installed
+#       2. 

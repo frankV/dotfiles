@@ -10,15 +10,14 @@
 ###                       Mods to Terminal Output 
 ##
 # set manual dir_colors
-if [ "$TERM" != "dumb" ]; then
-
-      eval `dircolors ~/.dir_colors`
-fi
+#if [ "$TERM" != "dumb" ]; then
+#      eval `dircolors ~/.dir_colors`
+#fi
 ###
 ##
 # directory function aliases
-alias ls='ls -GHf'
-alias dir='ls -Gal'
+alias ls='ls $LS_OPTIONS -GHf'
+alias dir='ls $LS_OPTIONS -Gal'
 ###
 ##
 # change directory
@@ -47,6 +46,7 @@ alias hideall='defaults write com.apple.Finder AppleShowAllFiles FALSE'
 # MacPorts Installer addition on 2011-10-12_at_09:52:55: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
+export MANPATH=/opt/local/share/man:$MANPATH
 
 
 
