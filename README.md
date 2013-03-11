@@ -13,4 +13,4 @@ vim
 dircolors
 ---------
 
-Colorscheme is based around [solarized](http://ethanschoonover.com/solarized/ "solarized")
+Colorscheme is based around [solarized](http://ethanschoonover.com/solarized/ "solarized") with modifications as in [this example](http://archlinux.me/w0ng/2012/04/21/better-dircolors-with-solarized/ "dircolors")
