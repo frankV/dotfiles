@@ -7,7 +7,13 @@ This method for storing and installing dot configuration files based on tutorial
 vim
 --------
 
-.vimrc, plugins and vim/setings are included
++ .vimrc
++ plugins (included as submodules)
++ -- [vunndle](https://github.com/gmarik/vundle "vundle") - plugin mgmt
++ -- [matchit](https://github.com/tsaleh/vim-matchit "matchit")
++ -- [NERD Commenter](https://github.com/scrooloose/nerdcommenter "NERD Commenter")
++ -- [NERD Tree](https://github.com/scrooloose/nerdtree "NERD Tree")
++ -- [Command T](https://github.com/wincent/Command-T "command-T")
 
 
 dircolors
