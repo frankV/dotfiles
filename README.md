@@ -20,3 +20,30 @@ dircolors
 ---------
 
 Colorscheme is based around [solarized](http://ethanschoonover.com/solarized/ "solarized") with modifications as in [this example](http://archlinux.me/w0ng/2012/04/21/better-dircolors-with-solarized/ "dircolors")
+
+
+shell setup
+---------
+
++ Shell Aliases
+  <pre><code>
+  # directory function aliases
+  alias ls='ls -GHf'
+  alias dir='ls -Gal'
+  ###
+  ##
+  # change directory
+  alias ...='cd ../../../'
+  alias cd.4='cd ../../../../'
+  alias cd.5='cd ../../../../../'
+  alias cd..='cd ..'
+  </code></pre>
+
++ Python Aliases
+  <pre><code>
+  # virtualenv aliases
+  # http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.html
+  alias v='workon'
+  alias v.mk='mkvirtualenv --no-site-packages'
+  alias v.mk_withsitepackages='mkvirtualenv'
+  </code></pre>
