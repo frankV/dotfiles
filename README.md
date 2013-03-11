@@ -9,11 +9,11 @@ vim
 
 + .vimrc
 + plugins (included as submodules)
-++ [vunndle](https://github.com/gmarik/vundle "vundle")
-++ [matchit](https://github.com/tsaleh/vim-matchit "matchit")
-++ [NERD Commenter](https://github.com/scrooloose/nerdcommenter "NERD Commenter")
-++ [NERD Tree](https://github.com/scrooloose/nerdtree "NERD Tree")
-++ [Command T](https://github.com/wincent/Command-T "command-T")
+  - [vunndle](https://github.com/gmarik/vundle "vundle")
+  - [matchit](https://github.com/tsaleh/vim-matchit "matchit")
+  - [NERD Commenter](https://github.com/scrooloose/nerdcommenter "NERD Commenter")
+  - [NERD Tree](https://github.com/scrooloose/nerdtree "NERD Tree")
+  - [Command T](https://github.com/wincent/Command-T "command-T")
 
 
 dircolors
