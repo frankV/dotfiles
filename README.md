@@ -4,6 +4,8 @@ dotfiles
 Repo for my configuration files. Running install.sh will automaically backup existing versions of these files and directories and replace them with symlinks to these. This is really nice for setting up a new machine.
 This method for storing and installing dot configuration files based on tutorial found [here](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/ "here")
 
+**there is no reason to ever run install.sh on a machine twice if the only updates are too files in the repo!!!**
+
 vim
 --------
 
