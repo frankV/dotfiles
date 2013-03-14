@@ -57,7 +57,7 @@ shell setup
   alias v.mk_withsitepackages='mkvirtualenv'
   </pre>
 
-To Do
+to do
 ---------
   [ ] fix shit with vim plugins; the only one that should be a submodule is vundle
 
