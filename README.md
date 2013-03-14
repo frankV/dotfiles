@@ -59,10 +59,10 @@ shell setup
 
 To Do
 ---------
-    [ ] fix shit with vim plugins; the only one that should be a submodule is vundle
+  [ ] fix shit with vim plugins; the only one that should be a submodule is vundle
 
-    [ ] adapt install.sh
+  [ ] adapt install.sh
      
-    [ ] need smarter way of replacing files/symlinks in HOME. maybe use `eval` ?
+  [ ] need smarter way of replacing files/symlinks in HOME. maybe use `eval` ?
     
-    [ ] check for MacPorts; install if not found and install coreutils
+  [ ] check for MacPorts; install if not found and install coreutils
