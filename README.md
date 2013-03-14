@@ -4,7 +4,7 @@ dotfiles
 Repo for my configuration files. Running install.sh will automaically backup existing versions of these files and directories and replace them with symlinks to these. This is really nice for setting up a new machine.
 This method for storing and installing dot configuration files based on tutorial found [here](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/ "here")
 
-**there is no reason to ever run install.sh on a machine twice if the only updates are too files in the repo!!!**
+**there is no reason to ever run install.sh on a machine twice if the only updates are to files in the repo!!!**
 
 vim
 --------
@@ -35,7 +35,7 @@ shell setup
 ---------
 
 + Shell Aliases
-  <pre><code>
+  <pre>
   # directory function aliases
   alias ls='ls -GHf'
   alias dir='ls -Gal'
@@ -46,13 +46,13 @@ shell setup
   alias cd.4='cd ../../../../'
   alias cd.5='cd ../../../../../'
   alias cd..='cd ..'
-  </code></pre>
+  </pre>
 
 + Python Aliases
-  <pre><code>
+  <pre>
   # virtualenv aliases
   # http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.html
   alias v='workon'
   alias v.mk='mkvirtualenv --no-site-packages'
   alias v.mk_withsitepackages='mkvirtualenv'
-  </code></pre>
+  </pre>
