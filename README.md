@@ -11,17 +11,11 @@ vim
 
 + .vimrc
 + plugins (included as submodules)
-  - [vundle](https://github.com/gmarik/vundle "vundle")     
-      * vim plugin management
-  - [matchit](https://github.com/tsaleh/vim-matchit "matchit")      
-      * configure % to match more than just single characters
-  - [NERD Commenter](https://github.com/scrooloose/nerdcommenter "NERD Commenter")      
-      * comment enhancemnet
-  - [NERD Tree](https://github.com/scrooloose/nerdtree "NERD Tree")     
-      * explore your filesystem and to open files and directories.
-  - [Command T](https://github.com/wincent/Command-T "command-T")     
-      * provides an extremely fast, intuitive mechanism for
-opening files and buffers
+  - [vundle](https://github.com/gmarik/vundle "vundle") - vim plugin management
+  - [matchit](https://github.com/tsaleh/vim-matchit "matchit") - configure % to match more than just single characters
+  - [NERD Commenter](https://github.com/scrooloose/nerdcommenter "NERD Commenter") - comment enhancemnet
+  - [NERD Tree](https://github.com/scrooloose/nerdtree "NERD Tree") - explore your filesystem and to open files and directories.
+  - [Command T](https://github.com/wincent/Command-T "command-T") - provides an extremely fast, intuitive mechanism for opening files and buffers
 
 
 dircolors
