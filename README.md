@@ -66,3 +66,6 @@ to do
   [ ] need smarter way of replacing files/symlinks in HOME. maybe use `eval` ?
     
   [ ] check for MacPorts; install if not found and install coreutils
+      
+  [ ] fix dircolors
+  
