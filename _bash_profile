@@ -16,8 +16,8 @@
 ###
 ##
 # directory function aliases
-alias ls='ls $LS_OPTIONS -GHf'
-alias dir='ls $LS_OPTIONS -Gal'
+#alias ls='ls $LS_OPTIONS -GHf'
+#alias dir='ls $LS_OPTIONS -Gal'
 ###
 ##
 # change directory
@@ -43,9 +43,8 @@ alias showall='defaults write com.apple.Finder AppleShowAllFiles TRUE'
 alias hideall='defaults write com.apple.Finder AppleShowAllFiles FALSE'
 ###
 ##
-# MacPorts Installer addition on 2011-10-12_at_09:52:55: adding an appropriate PATH variable for use with MacPorts.
+# MacPorts Installer addition on 2011-10-12_at_09:52:55:
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
 export MANPATH=/opt/local/share/man:$MANPATH
 
 
@@ -56,8 +55,8 @@ export MANPATH=/opt/local/share/man:$MANPATH
 # virtualenv aliases
 # http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.html
 alias v='workon'
-alias v.mk='mkvirtualenv --no-site-packages'
-alias v.mk_withsitepackages='mkvirtualenv'
+alias v.mk='virtualenv --no-site-packages'
+alias v.mk_withsitepackages='virtualenv'
 
 
 
