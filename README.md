@@ -47,17 +47,17 @@ shell setup
   # virtualenv aliases
   # http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.html
   alias v='workon'
-  alias v.mk='mkvirtualenv --no-site-packages'
-  alias v.mk_withsitepackages='mkvirtualenv'
+  alias v.mk='virtualenv --no-site-packages'
+  alias v.mk_with='virtualenv'
   </pre>
 
 to do
 ---------
   [ ] fix shit with vim plugins; the only one that should be a submodule is vundle
 
-  [ ] adapt install.sh
+  [X] adapt install.sh
      
-  [ ] need smarter way of replacing files/symlinks in HOME. maybe use `eval` ?
+  [X] need smarter way of replacing files/symlinks in HOME. maybe use `eval` ?
     
   [ ] check for MacPorts; install if not found and install coreutils
       
