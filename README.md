@@ -61,5 +61,5 @@ to do
     
   [ ] check for MacPorts; install if not found and install coreutils
       
-  [ ] fix dircolors
+  [X] fix dircolors
   
