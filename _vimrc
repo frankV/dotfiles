@@ -17,9 +17,9 @@ Bundle 'Command-T'
 let mapleader=","
 syntax enable
 if has('gui_running')
-  set background=light
+set background=light
 else
-  set background=dark
+set background=dark
 endif
 set t_Co=16
 let g:solarized_termcolors=16
@@ -99,35 +99,36 @@ au BufRead,BufNewFile *.jsm setfiletype javascript
 au BufRead,BufNewFile *.xul setfiletype xml
 au filetype html,xml set listchars-=tab:>.
 
-"""""""""""""""""""" CUSTOM FUNCTIONS
 
+"""""""""""""""""""" CUSTOM FUNCTIONS
 """ Toggle relative/absolute numbering
 function! NumberToggle()
-      if(&relativenumber == 1)
-              set number
-                else
-                        set relativenumber
-                          endif
-                      endfunc
-                      
-                      nnoremap <F10> :call NumberToggle()<cr>
-                      
-                      """ FocusMode
-                      function! ToggleFocusMode()
-                            if (&foldcolumn != 12)
-                                    set laststatus=0
-                                        set numberwidth=10
-                                            set foldcolumn=12
-                                                set noruler
-                                                    hi FoldColumn ctermbg=none
-                                                        hi LineNr ctermfg=0 ctermbg=none
-                                                            hi NonText ctermfg=0
-                                                              else
-                                                                      set laststatus=2
-                                                                          set numberwidth=4
-                                                                              set foldcolumn=0
-                                                                                  set ruler
-                                                                                      execute 'colorscheme ' . g:colors_name
-                                                                                        endif
-                                                                                    endfunc
-                                                                                    nnoremap <F1> :call ToggleFocusMode()<cr>" }
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+nnoremap <F10> :call NumberToggle()<cr>
+
+
+""""""""""""""""""""""""" FOCUS MODE
+function! ToggleFocusMode()
+  if (&foldcolumn != 12)
+    set laststatus=0
+    set numberwidth=10
+    set foldcolumn=12
+    set noruler
+    hi FoldColumn ctermbg=none
+    hi LineNr ctermfg=0 ctermbg=none
+    hi NonText ctermfg=0
+  else
+    set laststatus=2
+    set numberwidth=4
+    set foldcolumn=0
+    set ruler
+    execute 'colorscheme ' . g:colors_name
+  endif
+endfunc
+nnoremap <F1> :call ToggleFocusMode()<cr>" }
+
