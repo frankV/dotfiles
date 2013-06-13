@@ -55,7 +55,7 @@ shell setup
 
 to do
 ---------
-  [ ] fix shit with vim plugins; the only one that should be a submodule is vundle
+  [X] fix shit with vim plugins; the only one that should be a submodule is vundle
 
   [X] adapt install.sh
      
