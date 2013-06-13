@@ -17,12 +17,12 @@ Bundle 'Command-T'
 let mapleader=","
 syntax enable
 if has('gui_running')
-set background=light
+set background=dark
 else
 set background=dark
 endif
-set t_Co=16
-let g:solarized_termcolors=16
+set t_Co=256
+let g:solarized_termcolors=256
 colorscheme solarized
 set gfn=terminus
 set go=
