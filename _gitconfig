@@ -5,6 +5,7 @@
 	email = fvalcarcel@me.com
 [core]
 	editor = vim
+	excludesfile = /Users/frankV/.gitignore_global
 
 [color]
 diff = auto
@@ -41,3 +42,9 @@ changed = green
  #list all aliases
  la = "!git config -l | grep alias | cut -c 7-"
  diff = diff --word-diff
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
