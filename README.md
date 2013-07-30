@@ -24,6 +24,8 @@ dircolors
 Colorscheme is based around [solarized](http://ethanschoonover.com/solarized/ "solarized") with modifications as in [this example](http://archlinux.me/w0ng/2012/04/21/better-dircolors-with-solarized/ "dircolors")
 For machines running Mac OS X, MacPorts is required for installing core utils. Without core utils 'dircolors' does not work on OS X.
 
+Issues have arisen with colorscheme support across platforms. This may be a [solution](http://stackoverflow.com/questions/7780030/how-to-fix-terminal-not-loading-bashrc-on-os-x-lion)
+
 
 shell setup
 ---------
@@ -53,7 +55,7 @@ shell setup
 
 to do
 ---------
-  [ ] fix shit with vim plugins; the only one that should be a submodule is vundle
+  [X] fix shit with vim plugins; the only one that should be a submodule is vundle
 
   [X] adapt install.sh
      
